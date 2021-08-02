@@ -24,12 +24,12 @@ Update the `cart.js` file to do the following:
   - add the new item to the global array `basket`.[x] 
   - return `true` indicating the item was added [x]
 
-- Create a function called `listItems`. It should: []
-  - loop over the items in the `basket` array []
-  - console.log each individual item on a new line []
+- Create a function called `listItems`. It should: [x]
+  - loop over the items in the `basket` array [x]
+  - console.log each individual item on a new line [x]
 
-- Create a function called `empty`. It should: []
-  - reset the `basket` to an empty array
+- Create a function called `empty`. It should: [x]
+  - reset the `basket` to an empty array [x]
 
 > __IMPORTANT__
 > Make sure that you are writing code *in the file* to test every function that you write!
