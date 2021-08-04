@@ -46,10 +46,10 @@ Remember that Stretch Goals are not required, but will help you to further devel
 
 __Using functions in other functions!__
 
-1. Add a global `const` named `maxItems` and set it to 5.
+1. Add a global `const` named `maxItems` and set it to 5. [x]
 
-2. Create a function called isFull(). It should:
-  - return `false` if the basket contains *less* than max number of items
+2. Create a function called isFull(). It should: [x]
+  - return `false` if the basket contains *less* than max number of items 
   - return `true` otherwise (equal or more than maxItems)
 
 3. Update the required `addItem` function to:

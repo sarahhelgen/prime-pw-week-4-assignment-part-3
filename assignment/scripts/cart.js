@@ -33,3 +33,20 @@ function empty(){
 }//end empty
 console.log('running empty', empty());
 console.log(`The basket items are ${basket}`);
+
+//STRETCH GOALS
+console.log('Stretch Goals');
+
+const maxItems = 5;
+
+function isFull(){
+    console.log( 'in isFull ');
+    if( basket < maxItems ){
+        return false;
+    }
+    else{
+        return true;
+    }
+}//end isFull
+console.log(basket);
+console.log('running isFull', isFull());
