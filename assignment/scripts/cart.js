@@ -41,12 +41,13 @@ const maxItems = 5;
 
 function isFull(){
     console.log( 'in isFull ');
-    if( basket < maxItems ){
+    if( basket.length < maxItems ){
         return false;
-    }
+    }//end check
     else{
         return true;
-    }
+    }//end else
 }//end isFull
 console.log(basket);
 console.log('running isFull', isFull());
+
