@@ -39,8 +39,8 @@ console.log('Stretch Goals');
 
 const maxItems = 5;
 
-function isFull(){
-    console.log( 'in isFull ');
+function isFull( basket){
+    console.log( 'in isFull ', basket );
     if( basket.length < maxItems ){
         return false;
     }//end check
@@ -48,6 +48,6 @@ function isFull(){
         return true;
     }//end else
 }//end isFull
-console.log(basket);
-console.log('running isFull', isFull());
-
+console.log('running isFull', isFull(basket));
+console.log( 'running isFull', ['mango', 'apple', 'strawberry', 'peach']);
+console.log( 'running isFull', [3,4,5,6,7,8,9])
